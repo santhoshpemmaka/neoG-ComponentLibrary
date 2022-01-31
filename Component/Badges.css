@@ -37,9 +37,11 @@
     height: 15rem;
     border-radius: 50%;
 }
+.image-lg{
+    height: 15rem;
+}
 .reponsive-image{
     width: 100%;
-    height: auto;
     margin-top: 2rem;
 }
 .image-round{
@@ -65,7 +67,6 @@
 }
 .status-badge-online{
     background-color: #1b7052 ;
-    bottom: 3em;
     left: 11em;
 }
 .avatar-md-size{
@@ -73,9 +74,11 @@
     height: 10rem;
     border-radius: 50%;
 }
+.image-md{
+    height: 10rem;
+}
 .status-badge-offline{
     background-color: #dc3545;
-    bottom: 1.25em;
     left: 7em;
 }
 .avatar-sm-size{
@@ -83,9 +86,11 @@
     height: 7rem;
     border-radius: 50%;
 }
+.image-sm{
+    height: 7rem;
+}
 .status-badge-away{
     background-color: #ff9204;
-    bottom: 0.25em;
     left: 5em;
 }
 .avatar-xs-size{
@@ -93,13 +98,16 @@
     height: 5rem;
     border-radius: 50%;
 }
+.image-xs{
+    height: 5rem;
+}
 
 .status-badge-online-xs{
     background-color: #1b7052 ;
     height: 1.25rem;
     left: 3.5em;
-    bottom: 0.015em;
     width: 1rem;
+    bottom: -2rem;
 }
 .btn{
     display: flex;

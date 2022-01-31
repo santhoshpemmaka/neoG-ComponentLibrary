@@ -43,20 +43,32 @@
     height: 15rem;
     font-size: 4rem;
 }
+.image-lg{
+    height: 15rem;
+}
 .avatar-md-size{
     width: 10rem;
     height: 10rem;
     font-size: 3rem;
+}
+.image-md{
+    height: 10rem;
 }
 .avatar-sm-size{
     width: 7rem;
     height: 7rem;
     font-size: 2rem;
 }
+.image-sm{
+    height: 7rem;
+}
 .avatar-xs-size{
     width: 5rem;
     height: 5rem;
     font-size: 1rem;
+}
+.image-xs{
+    height: 5rem;
 }
 
 .avatar-text{
