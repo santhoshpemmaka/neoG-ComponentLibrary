@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="documentation.css">
+    <title>Documentation CSS</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container-header">
+            <ul class="ul-tag-header">
+                <li class="li-tag-header">
+                    <a class="a-tag-header" href="./">
+                        <label class="label-header-name">Quick UI</label>
+                    </a>
+                </li>
+                <li class="li-tag-header">
+                    <a class="a-tag-header" href="./">
+                        <label class="label-name">Home</label>
+                    </a>
+                </li>
+                <li class="li-tag-header">
+                    <a class="a-tag-header" href="./documentation.html" target="_blank">
+                        <label class="label-name">Documentation</label>
+                    </a>
+                </li>
+            </ul>
+            <ul class="ul-tag-header">
+                <li class="li-tag-header">
+                    <a class="a-tag-header" href="https://github.com/santhoshpemmaka" target="_blank">
+                        <i class="fab fa-github header-icon"></i>
+                    </a>
+                </li>
+                <li class="li-tag-header" >
+                    <a class="a-tag-header" href="https://twitter.com/_SanthoshP" target="_blank">
+                        <i class="fab fa-twitter header-icon"></i>
+                    </a>
+                </li>
+                <li class="li-tag-header">
+                    <a class="a-tag-header" href="https://www.linkedin.com/in/santhoshpemmaka-b6573912a/" target="_blank">
+                        <i class="fab fa-linkedin header-icon"></i>
+                    </a>
+                </li>
+                    
+            </ul>
+        </div>
+    </div>
+
+    <div class="docu-container-body">
+        <div class="body-nav">
+            <div class="nav-heading">
+                    <h2 class="nav-name">Components</h2>
+            </div>
+            <ul class="nav-links">
+                <li class="nav-link-item">
+                    <a href="#alerts">Alerts</a>
+                </li>
+                <li class="nav-link-item">
+                    <a href="#avatar">Avatar</a>
+                </li>
+                <li class="nav-link-item">
+                    <a href="#badges">Badges</a>
+                </li>
+                <li class="nav-link-item">
+                    <a href="#buttons">Buttons</a>
+                </li>
+                <li class="nav-link-item">
+                    <a href="#forms">Forms</a>
+                </li>
+                <li class="nav-link-item">
+                    <a href="#horizontialCard">Horizontail Card</a>
+                </li>
+                <li class="nav-link-item">
+                    <a href="#images">Images</a>
+                </li>
+                <li class="nav-link-item">
+                    <a href="#navigation">Navigation</a>
+                </li>
+                <li class="nav-link-item">
+                    <a href="#ratings">Ratings</a>
+                </li>
+                <li class="nav-link-item">
+                    <a href="#typo-graphy">Typography</a>
+                </li>
+                <li class="nav-link-item">
+                    <a href="#verti-card">Vertical Card</a>
+                </li>
+            </ul>
+        </div>
+            <div class="body-description">
+                <div id="alerts">
+                    <div class="component-introduction">
+                        <h2>Alerts</h2>
+                        <div class="componet-item">
+                            <button class="alert-box alert-primary">
+                                A primary alert example with a text link 
+                            </button>
+                            <button class="alert-box alert-secondary">
+                                A secondary alert example!!! 
+                            </button>
+                            <button class="alert-box alert-success">
+                                <span class="alert-icon">
+                                    <i class="fas fa-check-circle"></i>
+                                </span>
+                                A success alert example!!!
+                            </button>
+                            <button class="alert-box alert-danger">
+                                <span class="alert-icon">
+                                    <i class="fas fa-exclamation-triangle"></i>
+                                </span>
+                                A danger alert example!!!
+                            </button>
+                            <button class="alert-box alert-warning">
+                                <span class="alert-icon">
+                                    <i class="fas fa-exclamation-triangle"></i>
+                                </span>
+                                A danger warning example!!!
+                            </button>
+                            <button class="alert-box alert-warning alert-warning-flex">
+                                <span>
+                                    <span class="alert-icon">
+                                        <i class="fas fa-exclamation-triangle"></i>
+                                    </span>
+                                        A danger warning example!!!
+                                </span>
+                                <span class="alert-icon">
+                                    <i class="fas fa-times"></i>
+                                </span>
+                            </button>
+                            <div class="code-snipet">
+                                <code>
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=htmlmixed&width=1100&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=9px&ph=100px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522alert-box%2520alert-primary%2522%253E%250A%2520%2520%2520A%2520primary%2520alert%2520example%2520with%2520a%2520text%2520link%2520%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522alert-box%2520alert-secondary%2522%253E%250A%2520%2520%2520A%2520secondary%2520alert%2520example%21%21%21%2520%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522alert-box%2520alert-success%2522%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522alert-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520A%2520success%2520alert%2520example%21%21%21%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522alert-box%2520alert-danger%2522%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522alert-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520A%2520danger%2520alert%2520example%21%21%21%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522alert-box%2520alert-warning%2520alert-warning-flex%2522%253E%250A%2520%2520%2520%253Cspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522alert-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520A%2520danger%2520warning%2520example%21%21%21%250A%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522alert-icon%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%253C%252Fspan%253E%250A%253C%252Fbutton%253E"
+                                        style="border:0; transform: scale(1); overflow:hidden;"
+                                        sandbox="allow-scripts allow-same-origin">
+                                    </iframe>
+                                </code>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="avatar">
+                    <div class="component-introduction">
+                        <h2>Avatar</h2>
+                        <div class="componet-item">
+                            <div class="component-display-container">
+                                <div class="avatar avatar-lg-size flex-items">
+                                    <img class="image-responsive image-round" src='../Assests/Images/avatar.jpg' alt="avatar" />
+                                </div>
+                                <div class="avatar avatar-md-size flex-items">
+                                    <img class="image-responsive image-round" src='../Assests/Images/avatar1.jpg'  alt="avatar" />
+                                </div>
+                                <div class="avatar avatar-sm-size flex-items">
+                                    <img class="image-responsive image-round" src='../Assests/Images/avatar.jpg'  alt="avatar" />
+                                </div>
+                                <div class="avatar avatar-xs-size flex-items">
+                                    <img class="image-responsive image-round" src='../Assests/Images/avatar1.jpg'  alt="avatar" />
+                                </div>
+                            </div>
+                            <div class="component-display-container">
+                                <div class="avatar avatar-lg-size flex-items avatar-text">
+                                    AB
+                                </div>
+                                <div class="avatar avatar-md-size flex-items avatar-text">
+                                    AB
+                                </div>
+                                <div class="avatar avatar-sm-size flex-items avatar-text">
+                                    AB
+                                </div>
+                                <div class="avatar avatar-xs-size flex-items avatar-text">
+                                    AB
+                                </div>
+                            </div>
+                            <div class="code-snipet">
+                                <code>
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=htmlmixed&width=1100&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=9px&ph=100px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522component-display-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-lg-size%2520flex-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-responsive%2520image-round%2522%2520src%253D%27..%252FAssests%252FImages%252Favatar.jpg%27%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-md-size%2520flex-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-responsive%2520image-round%2522%2520src%253D%27..%252FAssests%252FImages%252Favatar1.jpg%27%2520%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-sm-size%2520flex-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-responsive%2520image-round%2522%2520src%253D%27..%252FAssests%252FImages%252Favatar.jpg%27%2520%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-xs-size%2520flex-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-responsive%2520image-round%2522%2520src%253D%27..%252FAssests%252FImages%252Favatar1.jpg%27%2520%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522component-display-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-lg-size%2520flex-items%2520avatar-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520AB%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-md-size%2520flex-items%2520avatar-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520AB%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-sm-size%2520flex-items%2520avatar-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520AB%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-xs-size%2520flex-items%2520avatar-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520AB%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                                        style="border:0; transform: scale(1); overflow:hidden;"
+                                        sandbox="allow-scripts allow-same-origin">
+                                    </iframe>
+                                </code>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="badges">
+                    <div class="component-introduction">
+                        <h2>Badges</h2>
+                        <div class="componet-item">
+                            <div class="component-display-container">
+                                <div class="flex-items">
+                                    <div class="badge-container">
+                                        <div class="avatar avatar-lg-size">
+                                            <img class="reponsive-image image-round" src="../Assests/Images/avatar.jpg" alt="">
+                                        </div>
+                                        <span class="status-badge status-badge-online">
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="flex-items">
+                                    <div class="badge-container">
+                                        <div class="avatar avatar-md-size">
+                                            <img class="reponsive-image image-round" src="../Assests/Images/avatar1.jpg" alt="">
+                                        </div>
+                                        <span class="status-badge status-badge-offline">
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="flex-items">
+                                    <div class="badge-container">
+                                        <div class="avatar avatar-sm-size">
+                                            <img class="reponsive-image image-round" src="../Assests/Images/avatar.jpg" alt="">
+                                        </div>
+                                        <span class="status-badge status-badge-away">
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="flex-items">
+                                    <div class="badge-container">
+                                        <div class="avatar avatar-xs-size">
+                                            <img loading ='lazy' class="reponsive-image image-round" src="../Assests/Images/avatar1.jpg" alt="">
+                                        </div>
+                                        <span class="status-badge status-badge-online-xs">
+                                        </span>
+                                    </div>
+                                </div>
+                                <a class="btn flex-items">
+                                    <div class="badge-icon">
+                                        <i class="fas fa-shopping-cart icon-badge"></i>
+                                        <span class="status-badge badge-count">4</span>
+                                    </div>
+                                </a>
+                                
+                            </div>
+                        
+                            <div class="component-display-container container-text">
+                                <h2 class="badge-container-h2"> Example of Heading with Badges
+                                    <span class="badge bg-seconday">New</span>
+                                </h2>
+                                <h3 class="badge-container-h3"> Example of Heading with Badges
+                                    <span class="badge bg-seconday">New</span>
+                                </h3>
+                                <h4 class="badge-container-h4"> Example of Heading with Badges
+                                    <span class="badge bg-seconday">New</span>
+                                </h4>
+                                <h5 class="badge-container-h5"> Example of Heading with Badges
+                                    <span class="badge bg-seconday-1">New</span>
+                                </h5>
+                                <h6 class="badge-container-h6"> Example of Heading with Badges
+                                    <span class="badge bg-seconday-1">New</span>
+                                </h6>
+                                <p class="badge-container-p-tag"> Example of Heading with Badges
+                                    <span class="badge bg-seconday-1">New</span>
+                                </p>
+                            </div>
+                            <div class="code-snipet">
+                                <code>
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=htmlmixed&width=1100&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=9px&ph=100px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522component-display-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-lg-size%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522reponsive-image%2520image-round%2522%2520src%253D%2522..%252FComponents%252FImages%252Favatar.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522status-badge%2520status-badge-online%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-md-size%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522reponsive-image%2520image-round%2522%2520src%253D%2522..%252FComponents%252FImages%252Favatar1.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522status-badge%2520status-badge-offline%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522btn%2520flex-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520icon-badge%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522status-badge%2520badge-count%2522%253E4%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522component-display-container%2520container-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522badge-container-h2%2522%253E%2520Example%2520of%2520Heading%2520with%2520Badges%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520bg-seconday%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522badge-container-h3%2522%253E%2520Example%2520of%2520Heading%2520with%2520Badges%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520bg-seconday%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522badge-container-h4%2522%253E%2520Example%2520of%2520Heading%2520with%2520Badges%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520bg-seconday%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522badge-container-h5%2522%253E%2520Example%2520of%2520Heading%2520with%2520Badges%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520bg-seconday-1%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522badge-container-h6%2522%253E%2520Example%2520of%2520Heading%2520with%2520Badges%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520bg-seconday-1%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522badge-container-p-tag%2522%253E%2520Example%2520of%2520Heading%2520with%2520Badges%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520bg-seconday-1%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+                                        style="border:0; transform: scale(1); overflow:hidden;"
+                                        sandbox="allow-scripts allow-same-origin">
+                                    </iframe>
+                                </code>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="buttons">
+                    <div class="component-introduction">
+                        <h2>Buttons</h2>
+                        <div class="componet-item">
+                            <div class="button-container">
+                                <a href="#" class="btn flex-items primary-solid">
+                                    Primary-Solid
+                                </a>
+                                <a href="#" class="btn flex-items primary-outline">
+                                    Primary-Outline
+                                </a>
+                                <a href="#" class="btn flex-items primary-text">
+                                    Primary-Text
+                                </a>
+                                <a href="#" class="btn flex-items primary-add-cart">
+                                    <i class="fas fa-shopping-cart cart-icon"></i> Add to Cart
+                                </a>
+                            </div>
+                            <div class="button-container">
+                                <a href="#" class="btn flex-items secondary-solid">
+                                    Secondary-Solid
+                                </a>
+                                <a href="#" class="btn flex-items secondary-outline">
+                                    Secondary-Outline
+                                </a>
+                                <a href="#" class="btn flex-items secondary-text">
+                                    Secondary-Text
+                                </a>
+                                <a href="#" class="btn flex-items secondary-remove">
+                                    <i class="fas fa-minus cart-icon"></i> Remove
+                                </a>
+                            </div>
+                            <div class="button-container">
+                                <a href="#" class="btn flex-items disabled-solid">
+                                    Secondary-Solid
+                                </a>
+                                <a href="#" class="btn flex-items disabled-remove">
+                                    <i class="fas fa-minus cart-icon"></i> Remove
+                                </a>
+                            </div>
+                            <div class="button-container">
+                                <a class="btn flex-items btn-lg">
+                                    Large Button
+                                </a>
+                                <a class="btn flex-items btn-sm">
+                                    Small Button
+                                </a>
+                            </div>
+                            <div class="button-container1">
+                                <a href="#" class="btn flex-items btn-addition">
+                                    <i class="fas fa-plus btn-add"></i> 
+                                </a>
+                                <a href="#" class="btn flex-items btn-subtraction">
+                                    <i class="fas fa-minus btn-minus"></i> 
+                                </a>
+                            </div>
+                            <div class="code-snipet">
+                                <code>
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=htmlmixed&width=1100&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=9px&ph=100px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253Cdiv%2520class%253D%2522button-container%2522%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520flex-items%2520primary-solid%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520Primary-Solid%250A%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520flex-items%2520primary-outline%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520Primary-Outline%250A%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520flex-items%2520primary-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520Primary-Text%250A%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520flex-items%2520primary-add-cart%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520cart-icon%2522%253E%253C%252Fi%253E%2520Add%2520to%2520Cart%250A%2520%2520%2520%2520%253C%252Fa%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522button-container%2522%253E%250A%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520flex-items%2520secondary-solid%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Secondary-Solid%250A%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520flex-items%2520secondary-outline%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Secondary-Outline%250A%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520flex-items%2520secondary-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Secondary-Text%250A%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520flex-items%2520secondary-remove%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-minus%2520cart-icon%2522%253E%253C%252Fi%253E%2520Remove%250A%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522button-container%2522%253E%250A%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520flex-items%2520disabled-solid%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Secondary-Solid%250A%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520flex-items%2520disabled-remove%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-minus%2520cart-icon%2522%253E%253C%252Fi%253E%2520Remove%250A%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522button-container%2522%253E%250A%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522btn%2520flex-items%2520btn-lg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Large%2520Button%250A%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522btn%2520flex-items%2520btn-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Small%2520Button%250A%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522button-container1%2522%253E%250A%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520flex-items%2520btn-addition%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-plus%2520btn-add%2522%253E%253C%252Fi%253E%2520%250A%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520flex-items%2520btn-subtraction%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-minus%2520btn-minus%2522%253E%253C%252Fi%253E%2520%250A%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%253C%252Fdiv%253E"
+                                        style="border:0; transform: scale(1); overflow:hidden;"
+                                        sandbox="allow-scripts allow-same-origin">
+                                    </iframe>
+                                </code>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="forms">
+                    <div class="component-introduction">
+                        <h2>Forms</h2>
+                        <div class="componet-item">
+                            <div class="form-container">
+                                <div class="form-email">
+                                    <label class="form-label">
+                                        Email address*
+                                    </label>
+                                    <input class="form-email-input" type="text" placeholder="name@example.com" />
+                                    <label class="form-label">
+                                        Example Textarea
+                                    </label>
+                                    <textarea type="email" class="form-email-input"  placeholder="start writing here.." rows='3' ></textarea>
+                                </div>
+                            </div>
+                            <div class="form-container">
+                                <div class="form-email">
+                                    <input class="form-email-input input-disabled" type="text" placeholder="Disabled input" disabled />
+                                    <input class="form-email-input input-disabled" type="text" placeholder="name@example.com" disabled readonly />
+                                </div>
+                            </div>
+                            <div class="form-container">
+                                <div class="form-email form-email-horizontail">
+                                    <lable class="form-text-email">Enter email</lable>
+                                    <input type="email" class="form-text-input" placeholder="name@example.com"/>
+                                </div>
+                                <div class="form-email form-email-horizontail">
+                                    <lable class="form-text-email">Enter password</lable>
+                                    <input type="password" class="form-text-password" placeholder="enter password here"/>
+                                </div>
+                            </div>
+                            <div class="form-container">
+                                <div class="form-validation-horizontail">
+                                    <label class="form-text-email">Enter phone number*</label>
+                                    <input class="form-text-phone" type="number" placeholder="enter mobile number" required />
+                                </div>
+                                <div class="form-validation-horizontail">
+                                    <label class="form-text-email">Select your country*</label>
+                                    <input class="form-text-phone" type='type' placeholder="enter country"  />
+                                </div>
+                                <div class="form-validation-horizontail">
+                                    <label class="form-text-email">Gender</label>
+                                    <div class="form-checkbox">
+                                        <input class="form-text-phone" type='radio' checked/>
+                                        <label class="form-checkbox-text">Male</label>
+                                    </div>
+                                    <div class="form-checkbox">
+                                        <input class="form-text-phone" type='radio'/>
+                                        <label class="form-checkbox-text">Female</label>
+                                    </div>
+                                </div>
+                                <div class="form-validation-horizontail">
+                                    <label class="form-text-email">Enter Your Birthdate*</label>
+                                    <input class="form-text-phone" type='date' placeholder="dd-mm-yyyy"  />
+                                </div>
+                                <div class="form-terms-conditions">
+                                    <input type="checkbox" />
+                                    <label class="form-checkbox-text">Yes, I accept the terms.*</label>
+                                </div>
+                                <button class="form-btn">Submit</button>
+                            </div>
+                            <div class="code-snipet">
+                                <code>
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=htmlmixed&width=1100&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=9px&ph=100px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522form-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522form-email%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522form-label%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Email%2520address*%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522form-email-input%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522name%2540example.com%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522form-label%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Example%2520Textarea%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ctextarea%2520type%253D%2522email%2522%2520class%253D%2522form-email-input%2522%2520%2520placeholder%253D%2522start%2520writing%2520here..%2522%2520rows%253D%273%27%2520%253E%253C%252Ftextarea%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522form-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522form-email%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522form-email-input%2520input-disabled%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Disabled%2520input%2522%2520disabled%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522form-email-input%2520input-disabled%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522name%2540example.com%2522%2520disabled%2520readonly%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522form-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522form-email%2520form-email-horizontail%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clable%2520class%253D%2522form-text-email%2522%253EEnter%2520email%253C%252Flable%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522email%2522%2520class%253D%2522form-text-input%2522%2520placeholder%253D%2522name%2540example.com%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522form-email%2520form-email-horizontail%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clable%2520class%253D%2522form-text-email%2522%253EEnter%2520password%253C%252Flable%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520class%253D%2522form-text-password%2522%2520placeholder%253D%2522enter%2520password%2520here%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522form-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522form-validation-horizontail%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522form-text-email%2522%253EEnter%2520phone%2520number*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522form-text-phone%2522%2520type%253D%2522number%2522%2520placeholder%253D%2522enter%2520mobile%2520number%2522%2520required%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522form-validation-horizontail%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522form-text-email%2522%253ESelect%2520your%2520country*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522form-text-phone%2522%2520type%253D%27type%27%2520placeholder%253D%2522enter%2520country%2522%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522form-validation-horizontail%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522form-text-email%2522%253EGender%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522form-checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522form-text-phone%2522%2520"
+                                        style=" border:0; transform: scale(1); overflow:hidden;"
+                                        sandbox="allow-scripts allow-same-origin">
+                                    </iframe>
+                                </code>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="horizontialCard">
+                    <div class="component-introduction">
+                        <h2>Horizontial Card</h2>
+                        <div class="componet-item">
+                            <div class="horizontail-card-container">
+                                <div class="card-nav">
+                                    <span class="nav-left">
+                                        <i class="fas fa-less-than nav-icon"></i>
+                                         Back to all plants
+                                    </span>
+                                    <span class="nav-right">
+                                        <i class="fas fa-heart nav-icon"></i>
+                                    </span>
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-image">
+                                        <img class="image-response" src="https://i.pinimg.com/236x/3b/36/ca/3b36ca3afe0fa0fd4984b9eee2e154bb.jpg" alt="">
+                                    </div>
+                                    <div class="card-description">
+                                        <h4 class="card-description-h4">classic peace lily</h4>
+                                        <p class="card-subtitle">popular house plant</p>
+                                        <h6 class="card-display-price">$ 18</h6>
+                                        <p class= 'card-summary'>
+                                            Classic Peace Lily is a spathiphyllum floor plant arranged in a bamboo planter with a blue & red ribbom and butterfly pick.
+                                        </p>
+                                        <div class="hori-btn flex-items">
+                                            <button class="card-hor-btn">Add to cart</button>
+                                            <button class="card-hor-btn">Wishlist</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="code-snipet">
+                                <code>
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=htmlmixed&width=1100&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=9px&ph=100px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522horizontail-card-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-nav%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522nav-left%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-less-than%2520nav-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Back%2520to%2520all%2520plants%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522nav-right%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2520nav-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-response%2522%2520src%253D%2522https%253A%252F%252Fi.pinimg.com%252F236x%252F3b%252F36%252Fca%252F3b36ca3afe0fa0fd4984b9eee2e154bb.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253Eclassic%2520peace%2520lily%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subtitle%2522%253Epopular%2520house%2520plant%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522card-display-price%2522%253E%2524%252018%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2520%27card-summary%27%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Classic%2520Peace%2520Lily%2520is%2520a%2520spathiphyllum%2520floor%2520plant%2520arranged%2520in%2520a%2520bamboo%2520planter%2520with%2520a%2520blue%2520%2526%2520red%2520ribbom%2520and%2520butterfly%2520pick.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn%2520flex-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-hor-btn%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-hor-btn%2522%253EWishlist%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                                        style="border:0; transform: scale(1); overflow:hidden;"
+                                        sandbox="allow-scripts allow-same-origin">
+                                    </iframe>
+                                </code>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="images">
+                    <div class="component-introduction">
+                        <h2>Images</h2>
+                        <div class="componet-item">
+                            <div class="image-container">
+                                <img class="background-responsive-image" src="../Assests/Images/Images-background.png" alt="background">
+                            </div>
+                            <div class="image-container">
+                                <img class="background-responsive-image circle-image" src="../Assests/Images/Images-background.png" />
+                            </div>
+                            <div class="code-snipet">
+                                <code>
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=htmlmixed&width=1100&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=9px&ph=100px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522image-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522background-responsive-image%2522%2520src%253D%2522..%252FAssests%252FImages%252FImages-background.png%2522%2520alt%253D%2522background%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522image-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522background-responsive-image%2520circle-image%2522%2520src%253D%2522..%252FAssests%252FImages%252FImages-background.png%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+                                        style="border:0; transform: scale(1); overflow:hidden;"
+                                        sandbox="allow-scripts allow-same-origin">
+                                    </iframe>
+                                </code>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="navigation">
+                    <div class="component-introduction">
+                        <h2>Navigation</h2>
+                        <div class="componet-item">
+                            <div class="navigation-container">
+                                <div class="navigation-tab">
+                                    <i class="fas fa-bars nav-icon"></i>
+                                    <span class="nav-left nav-text">Home</span>
+                                </div>
+                                <div class="navigation-tab">
+                                    <i class="fas fa-search nav-icon"></i>
+                                    <i class="fas fa-heart nav-icon"></i>
+                                    <i class="fas fa-shopping-cart nav-icon"></i>
+                                </div>
+                        </div>
+                            <div class="code-snipet">
+                                <code>
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=htmlmixed&width=1100&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=9px&ph=100px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522navigation-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navigation-tab%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bars%2520nav-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522nav-left%2520nav-text%2522%253EHome%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navigation-tab%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-search%2520nav-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2520nav-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520nav-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                                        style="border:0; transform: scale(1); overflow:hidden;"
+                                        sandbox="allow-scripts allow-same-origin">
+                                    </iframe>
+                                </code>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="ratings">
+                    <div class="component-introduction">
+                        <h2>Ratings</h2>
+                        <div class="componet-item">
+                            <div class="rating-container">
+                                <h3 class="rating-text flex-items">Customer reviews</h3>
+                                <div class="rating-icons">
+                                    <i class="fas fa-star rating-icon rating-color"></i>
+                                    <i class="fas fa-star rating-icon rating-color"></i>
+                                    <i class="fas fa-star rating-icon rating-color"></i>
+                                    <i class="fas fa-star rating-icon"></i>
+                                    <i class="fas fa-star rating-icon"></i>
+                                    <span class="rating-text display-rating"> 3 out of 5</span>
+                                </div>
+                            </div>
+                        
+                            <div class="rating-container">
+                                <h3 class="rating-text flex-items">Rate our service</h3>
+                                <div class="rating-icons">
+                                    <i class="fas fa-star rating-icon rating-color"></i>
+                                    <i class="fas fa-star rating-icon rating-color"></i>
+                                    <i class="fas fa-star rating-icon rating-color"></i>
+                                    <i class="fas fa-star rating-icon"></i>
+                                    <i class="fas fa-star rating-icon"></i>
+                                </div>
+                                <button class="rating-btn ">Submit</button>
+                            </div>
+                            <div class="code-snipet">
+                                <code>
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=htmlmixed&width=1100&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=9px&ph=100px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522rating-text%2520flex-items%2522%253ECustomer%2520reviews%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-icon%2520rating-color%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-icon%2520rating-color%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-icon%2520rating-color%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522rating-text%2520display-rating%2522%253E%25203%2520out%2520of%25205%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522rating-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522rating-text%2520flex-items%2522%253ERate%2520our%2520service%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-icon%2520rating-color%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-icon%2520rating-color%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-icon%2520rating-color%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522rating-btn%2520%2522%253ESubmit%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                                        style="border:0; transform: scale(1); overflow:hidden;"
+                                        sandbox="allow-scripts allow-same-origin">
+                                    </iframe>
+                                </code>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="typo-graphy">
+                    <div class="component-introduction">
+                        <h2>TypoGraphy</h2>
+                        <div class="componet-item">
+                            <div class="container-typography">
+                                <h1 class="typo-h1">H1 Heading Tag</h1>
+                                <h2 class="typo-h1">H2 Heading Tag</h2>
+                                <h3 class="typo-h1">H3 Heading Tag</h3>
+                                <h4 class="typo-h1">H4 Heading Tag</h4>
+                                <h5 class="typo-h1">H5 Heading Tag</h5>
+                                <h6 class="typo-h1">H6 Heading Tag</h6>
+                            </div>
+                            <div class="container-typography">
+                                <p class="p-tag p-largescale">P Paragraphy Tag Large scale</p>
+                                <p class="p-tag p-mediumscale">P Paragraphy Tag Large scale</p>
+                                <p class="p-tag p-smallscale">P Paragraphy Tag Large scale</p>
+                                
+                            </div>
+                            <div class="code-snipet">
+                                <code>
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=htmlmixed&width=1100&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=9px&ph=100px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522container-typography%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253EH1%2520Heading%2520Tag%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EH2%2520Heading%2520Tag%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EH3%2520Heading%2520Tag%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253EH4%2520Heading%2520Tag%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%253EH5%2520Heading%2520Tag%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%253EH6%2520Heading%2520Tag%253C%252Fh6%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522container-typography%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522p-tag%2520p-largescale%2522%253EP%2520Paragraphy%2520Tag%2520Large%2520scale%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522p-tag%2520p-mediumscale%2522%253EP%2520Paragraphy%2520Tag%2520Large%2520scale%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522p-tag%2520p-smallscale%2522%253EP%2520Paragraphy%2520Tag%2520Large%2520scale%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                                        style="border:0; transform: scale(1); overflow:hidden;"
+                                        sandbox="allow-scripts allow-same-origin">
+                                    </iframe>
+                                </code>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="verti-card">
+                    <div class="component-introduction">
+                        <h2>Vertical Card</h2>
+                        <div class="componet-item">
+                            <div class="componet-container">
+                                <div class="vertical-card">
+                                    <div class="ver-card-image">
+                                        <img class="ver-resposive-image" src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/14702326/2021/11/25/0f2d7227-2c08-4026-b683-952a75a5a53b1637844226443HRXByHrithikRoshanU-17ActiveBoysBurgundyPrintedRapid-DryAOPT1.jpg" alt="">
+                                    </div>
+                                    <div class="verticalcard-description">
+                                        <h4>HRX by Santhosh Pemmaka</h4>
+                                        <p>Boys Cotton Brand Logo T-shirt</p>
+                                        <div class="ver-card-display-price">
+                                            <span class="ver-price discount-price">Rs. 599</span> <span class="ver-price actual-price">Rs.1199</span>
+                                            <span class="ver-price discount-offer">(50% OFF)</span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="card-ver-btn flex-items primary-add-cart">
+                                        <i class="fas fa-shopping-cart cart-icon"></i> Add to Cart
+                                    </a>
+                                    <div class="card-ver-rating">
+                                        4.5 <i class="far fa-star"></i> | 8
+                                    </div>
+                                </div>
+                                <div class="vertical-card">
+                                    <div class="ver-card-image">
+                                        <img class="ver-resposive-image" src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/14610168/2021/11/25/18fd48b4-1a10-4e2c-b4e8-a7f8e309edc81637841657065NauticaBoysYellowNavyPureCottonBrandLogoNauticalPrintT-shirt1.jpg" alt="">
+                                    </div>
+                                    <div class="verticalcard-description">
+                                        <h4>HRX by Santhosh Pemmaka</h4>
+                                        <p>Boys Cotton Brand Logo T-shirt</p>
+                                        <div class="ver-card-display-price">
+                                            <span class="ver-price discount-price">Rs. 599</span> <span class="ver-price actual-price">Rs.1199</span>
+                                            <span class="ver-price discount-offer">(50% OFF)</span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="card-ver-btn flex-items primary-add-cart">
+                                        <i class="fas fa-shopping-cart cart-icon"></i> Add to Cart
+                                    </a>
+                                    <div class="card-ver-rating">
+                                        4.5 <i class="far fa-star"></i> | 8
+                                    </div>
+                                    <div class="card-ver-new">
+                                        New
+                                    </div>
+                                </div>
+                                <div class="vertical-card">
+                                    <div class="ver-card-image">
+                                        <img class="ver-resposive-image" src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/14610168/2021/11/25/18fd48b4-1a10-4e2c-b4e8-a7f8e309edc81637841657065NauticaBoysYellowNavyPureCottonBrandLogoNauticalPrintT-shirt1.jpg" alt="">
+                                    </div>
+                                    <div class="verticalcard-description">
+                                        <h4>HRX by Santhosh Pemmaka</h4>
+                                        <p>Boys Cotton Brand Logo T-shirt</p>
+                                        <div class="ver-card-display-price">
+                                            <span class="ver-price discount-price">Rs. 599</span> <span class="ver-price actual-price">Rs.1199</span>
+                                            <span class="ver-price discount-offer">(50% OFF)</span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="card-ver-btn flex-items primary-add-cart">
+                                        <i class="fas fa-shopping-cart cart-icon"></i> Add to Cart
+                                    </a>
+                                    <div class="card-ver-rating">
+                                        4.5 <i class="far fa-star"></i> | 8
+                                    </div>
+                                    <div class="card-ver-new">
+                                        New
+                                    </div>
+                                    <div class="overlay-text">
+                                        <div class="card-ver-text-container">
+                                            Out Of Stock
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
+                            <div class="code-snipet">
+                                <code>
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=htmlmixed&width=1100&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=9px&ph=100px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522componet-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522ver-card-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522ver-resposive-image%2522%2520src%253D%2522https%253A%252F%252Fassets.myntassets.com%252Fh_720%252Cq_90%252Cw_540%252Fv1%252Fassets%252Fimages%252F14702326%252F2021%252F11%252F25%252F0f2d7227-2c08-4026-b683-952a75a5a53b1637844226443HRXByHrithikRoshanU-17ActiveBoysBurgundyPrintedRapid-DryAOPT1.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522verticalcard-description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253EHRX%2520by%2520Santhosh%2520Pemmaka%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EBoys%2520Cotton%2520Brand%2520Logo%2520T-shirt%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522ver-card-display-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522ver-price%2520discount-price%2522%253ERs.%2520599%253C%252Fspan%253E%2520%253Cspan%2520class%253D%2522ver-price%2520actual-price%2522%253ERs.1199%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522ver-price%2520discount-offer%2522%253E%2850%2525%2520OFF%29%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522card-ver-btn%2520flex-items%2520primary-add-cart%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520cart-icon%2522%253E%253C%252Fi%253E%2520Add%2520to%2520Cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-ver-rating%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%25204.5%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%2520%257C%25208%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522ver-card-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522ver-resposive-image%2522%2520src%253D%2522https%253A%252F%252Fassets.myntassets.com%252Fh_720%252Cq_90%252Cw_540%252Fv1%252Fassets%252Fimages%252F14610168%252F2021%252F11%252F25%252F18fd48b4-1a10-4e2c-b4e8-a7f8e309edc81637841657065NauticaBoysYellowNavyPureCottonBrandLogoNauticalPrintT-shirt1.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522verticalcard-description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253EHRX%2520by%2520Santhosh%2520Pemmaka%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EBoys%2520Cotton%2520Brand%2520Logo%2520T-shirt%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522ver-card-display-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522ver-price%2520discount-price%2522%253ERs.%2520599%253C%252Fspan%253E%2520%253Cspan%2520class%253D%2522ver-price%2520actual-price%2522%253ERs.1199%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522ver-price%2520discount-offer%2522%253E%2850%2525%2520OFF%29%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522card-ver-btn%2520flex-items%2520"
+                                        style="border:0; transform: scale(1); overflow:hidden;"
+                                        sandbox="allow-scripts allow-same-origin">
+                                    </iframe>
+                                </code>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <footer class="footer footer-align">
+        <div class="footer-name">
+            Made with <span class="footer-symbol">&lt;/&gt;</span> by Santhosh Pemmaka
+        </div>
+        <ul class="ul-tag-header ul-footer">
+            <li class="li-tag-header">
+                <a class="a-tag-header" href="https://github.com/santhoshpemmaka" target="_blank">
+                    <i class="fab fa-github footer-icon"></i>
+                </a>
+            </li>
+            <li class="li-tag-header" >
+                <a class="a-tag-header" href="https://twitter.com/_SanthoshP" target="_blank">
+                    <i class="fab fa-twitter footer-icon"></i>
+                </a>
+            </li>
+            <li class="li-tag-header">
+                <a class="a-tag-header" href="https://www.linkedin.com/in/santhoshpemmaka-b6573912a/" target="_blank">
+                    <i class="fab fa-linkedin footer-icon"></i>
+                </a>
+            </li>
+        </ul>
+        <div class="footer-name">
+            Quick UI &copy; 2022
+        </div>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css';
+
+:root{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.navigation-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    border: 2px solid #e3e3e3;
+    background-color: #ff3f6c;
+    justify-content: space-between;
+}
+.nav-icon{
+    font-size: 2rem;
+    margin: 0.5rem 0.5rem;
+    padding: 0 1rem;
+    color: white;
+}
+.nav-text{
+    font-family: bold;
+    font-size: 2rem;
+    color: white;
+}

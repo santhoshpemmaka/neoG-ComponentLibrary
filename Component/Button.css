@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css';
+
+:root{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button-container{
+    display: flex;
+    align-items: baseline;
+    border: 2px solid #e6e6e6;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.btn{
+    text-decoration: none;
+    font-size: 1.6rem;
+    padding: 0.8rem 1.6rem;
+    border-radius: 10px;
+    
+}
+.flex-items{
+    margin: 1rem 1rem 1rem 0;
+}
+.primary-solid{
+    color: white;
+    background-color: #ff3f6c;
+}
+.primary-solid:hover{
+    background-color: #e63961;
+    color: white;
+}
+.primary-outline{
+    color:#ff3f6c;
+    border : 1px solid;
+}
+.primary-outline:hover{
+    background-color: #e63961;
+    color: white;
+}
+.primary-text{
+    text-decoration: underline;
+    color: #3e4152;
+    text-decoration-color: #e63961;
+}
+.primary-text:hover{
+    color: #e63961;
+}
+.primary-add-cart{
+    color: white;
+    background-color: #ff3f6c;
+}
+.primary-add-cart:hover{
+    background-color: #e63961;
+    color: white;
+}
+.cart-icon{
+    margin-right: 0.5rem;
+}
+.secondary-solid{
+    background-color: #eaeaea;
+    color: #696b79;
+}
+.secondary-solid:hover{
+    background-color: #d8d8da;
+}
+.secondary-outline{
+    color:#696b79;
+    border: 1px solid #d8d8da;
+}
+.secondary-outline:hover{
+    background-color: #eaeaea;
+}
+.secondary-text{
+    color:#696b79;
+    text-decoration: underline;
+    text-decoration-color: #696b79;
+}
+.secondary-remove{
+    color:#696b79;
+    border: 1px solid #d8d8da;
+}
+.secondary-remove:hover{
+    background-color: #d8d8da;
+}
+.disabled-solid{
+    background-color: #ff3f6c;
+    color: white;
+    cursor: none;
+    opacity: 0.5;
+}
+.disabled-remove{
+    color: #696b79;
+    border: 1px solid #d8d8da;
+    opacity: 0.5;
+    cursor: none;
+}
+.btn-lg{
+    color: white;
+    background-color: #ff3f6c;
+    font-size: 2rem;
+}
+.btn-sm{
+    color: white;
+    background-color: #ff3f6c;
+    font-size: 1.6rem;
+    padding: 0.5rem 0.8rem;
+}
+.btn-toggle{
+    padding: 0.5rem 0.8rem;
+    position: absolute;
+    margin: 1rem;
+}
+.btn-checkbox{
+    width: 16px;
+    height: 20px;
+}
+.btn-addition{
+    min-width: 4rem;
+    min-height: 4rem;
+    background-color: #ff3f6c;
+    border-radius: 50%;
+    margin: 1rem;
+    position: absolute;
+    left: 4rem;
+    
+}
+.button-container1{
+    display: flex;
+    align-items: baseline;
+    border: 2px solid #e6e6e6;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    height: 8rem;
+}
+.btn-add{
+    color: white;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.btn-minus{
+    color: white;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.btn-subtraction{
+    min-width: 4rem;
+    min-height: 4rem;
+    background-color: #ff3f6c;
+    border-radius: 50%;
+    margin: 1rem;
+    position: absolute;
+    left: 10rem;
+}

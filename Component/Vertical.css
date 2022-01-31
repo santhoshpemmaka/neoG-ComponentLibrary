@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css';
+
+:root{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.componet-container{
+    display: flex;
+    margin: 1rem 0;
+    width: 100%;
+    padding: 2rem 2rem;
+    border-radius: 0.5rem;
+    border: 2px solid #e6e6e6;
+    background-color: #eaeaec;
+
+}
+.vertical-card{
+    max-width: 240px;
+    min-height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    position: relative;
+    margin: 0 1rem;
+}
+.ver-card-image{
+    width: 240px;
+    height: 250px;
+    display: flex;
+}
+
+.ver-resposive-image{
+    width: 100%;
+    height: auto;
+}
+.verticalcard-description{
+    margin: 1rem 1.5rem;
+    padding: 0.5rem 0;
+}
+
+.verticalcard-description h4{
+    font-size: 1.6rem;
+    color: #282c3f;
+}
+
+.verticalcard-description >p{
+    padding: 0.5rem 0;
+    font-size: 1.3rem;
+    color: #535766;
+}
+
+.ver-price{
+    padding: 0 0.25rem
+}
+.discount-price{
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding-left: 0;
+}
+.actual-price{
+    font-size: 1.25rem;
+    text-decoration: line-through;
+}
+.discount-offer{
+    font-size: 1.25rem;
+    color: #ff905a;
+}
+.card-ver-btn{
+    text-decoration: none;
+    font-size: 1.6rem;
+    padding: 0.8rem 1.6rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 0 1rem;
+    
+}
+.primary-add-cart{
+    color: white;
+    background-color: #ff3f6c;
+}
+.cart-icon{
+    margin-right: 0.5rem;
+}
+.card-ver-rating{
+    position: absolute;
+    min-width: 60px;
+    height: 20px;
+    padding: 3px 5px;
+    font-size: 1.3rem;
+    background-color: #ff3f6c;
+    border-radius: 3px;
+    color: white;
+    bottom: 15rem;
+    left: 1rem;
+}
+.card-ver-new{
+    position: absolute;
+    min-width: 60px;
+    height: 20px;
+    padding: 3px 5px;
+    font-size: 1.3rem;
+    background-color: #ff3f6c;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    bottom: 36rem;
+}
+.overlay-text{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: rgb(234, 234, 236,0.6);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.card-ver-text-container{
+    font-size: 2rem;
+    background-color: #eaeaec;
+    color: #3e4152;
+    padding: 1rem;
+    border-radius: 10px;
+}
