@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css';
+
+:root{
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.alert-box{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    margin: 1rem 0;
+    padding: 1rem 3rem 1rem 1rem;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: start;
+    border: none;
+    border-radius: 5px;
+}
+.alert-primary{
+    background-color: #7FD2E6;
+    color: #29438b;
+}
+
+.alert-secondary{
+    background-color: #eaeaec;
+    color: #696b79;
+}
+
+.alert-success{
+    background-color: #84f1c9;
+    color: #1b7052;
+}
+
+.alert-icon{
+    width: 2rem;
+    height: 1rem;
+    margin-right: 1.25rem;
+}
+
+.alert-danger{
+    color: #dc3545;
+    background-color: #fcc5c5;
+}
+.alert-warning{
+    color: #ff9204;
+    background-color: #ffe7c5;
+}
+.alert-warning-flex{
+    justify-content: space-between;
+    font-size: 1.65rem;
+}

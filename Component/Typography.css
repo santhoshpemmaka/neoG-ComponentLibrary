@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css';
+
+:root{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-typography{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 2px solid #e6e6e6;
+    border-radius: 0.3rem;
+    
+}
+.typo-h1{
+    margin: 1rem 0rem;
+    padding: 0.25rem 1rem;
+    color: #3e4152;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 2rem;
+}
+h4{
+    font-size: 1.8rem;
+}
+h5{
+    font-size: 1.5rem;
+}
+h6{
+    font-size: 1.3rem;
+}
+.p-tag{
+    margin: 1rem 0rem;
+    padding: 0.25rem 1rem;
+    color: #3e4152;
+}
+.p-largescale{
+    font-size: 2rem;
+}
+.p-mediumscale{
+    font-size: 1.6rem;
+}
+.p-smallscale{
+    font-size: 1.4rem;
+}

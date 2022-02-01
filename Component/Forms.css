@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css';
+
+:root{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.form-container{
+    width: 100%;
+    margin: 1rem auto;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    border: 2px solid #e6e6e6;
+}
+.form-label{
+    font-size: 1.6rem;
+    color: #3e4152;
+    padding: 0 0 1rem 0;
+}
+.form-email{
+    display: flex;
+    flex-direction: column;
+}
+.form-email-input{
+    width: 100%;
+    margin: 1rem 0;
+    padding: 1rem;
+    font-size: 1.6rem;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    outline: none;
+}
+.form-email-input:focus{
+    box-shadow: 0 0 0 1px #ff3f6c;
+}
+.input-disabled{
+    background-color: #e9ecef;
+}
+.form-email-horizontail{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+.form-text-email{
+    font-size: 1.6rem;
+    color: #3e4152;
+    width: 25%;
+}
+.form-text-input{
+    display: flex;
+    flex-grow: 1;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 0.3rem;
+    font-size: 1.6rem;
+}
+.form-text-input:focus{
+    box-shadow: 0 0 0 1px #ff3f6c;
+}
+.form-text-password{
+    display: flex;
+    flex-grow: 1;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 0.3rem;
+    font-size: 1.6rem;
+    border: 2px solid #e6e6e6;
+}
+.form-text-password:focus{
+    box-shadow: 0 0 0 1px #ff3f6c;
+}
+.form-validation-horizontail{
+    display: flex;
+    margin: 1rem 0rem;
+}
+.form-text-phone{
+    display: flex;
+    flex-grow: 1;
+    padding: 1rem;
+    border: 2px solid #e6e6e6;
+    border-radius: 0.3rem;
+    font-size: 1.6rem;
+    outline: none;
+}
+.form-checkbox{
+    display: flex;
+    font-size: 1.6rem;
+    color: #3e4152;
+    margin-right: 5rem;
+    align-items: center;
+    margin: 1rem 1rem;
+}
+.form-checkbox-text{
+    margin-left: 0.75rem;
+}
+.form-terms-conditions{
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    color: #3e4152;
+    margin: 1rem 0rem;
+}
+.form-btn{
+    margin: 1rem 0;
+    padding: .5rem 1rem;
+    letter-spacing: 0.1rem;
+    font-size: 1.6rem;
+    border: none;
+    border: 1px solid #ff3f6c;
+    color: #ff3f6c;
+    border-radius: 0.5rem;
+}
+.form-btn:hover{
+    background-color: #ff3f6c;
+    opacity: 80%;
+    color: #e9ecef;
+}
