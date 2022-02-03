@@ -34,8 +34,8 @@
 	width: 10rem;
 	height: 3.5rem;
 	margin: 1rem 1rem;
-	background-color: var(--primary-color);
-	color: var(--complimentary-text-color);
+	background-color: #ff3f6c;
+	color: white;
 	border: none;
 	border-radius: 1rem;
 	font-size: 1.6rem;

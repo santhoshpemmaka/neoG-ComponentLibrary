@@ -133,6 +133,7 @@
 	width: 100%;
 	padding: 0 2rem;
 	height: auto;
+	margin-left: 4rem;
 }
 .space-width {
 	width: 100%;
@@ -149,7 +150,7 @@
 	text-align: center;
 }
 .footer-name {
-	color: var(--complimentary-text-color);
+	color: white;
 	font-size: 1.6rem;
 	padding: 1rem 0;
 	letter-spacing: 0.15rem;

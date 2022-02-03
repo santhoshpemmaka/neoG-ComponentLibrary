@@ -17,6 +17,7 @@
 	padding: 0.8rem 1.6rem;
 	border-radius: 10px;
 }
+
 .flex-items {
 	margin: 1rem 1rem 1rem 0;
 }
@@ -34,7 +35,7 @@
 }
 .primary-outline:hover {
 	background-color: var(--dark-primary-color);
-	color: var(--complimentary-text-color);
+	color: white;
 }
 .primary-text {
 	text-decoration: underline;
@@ -45,7 +46,7 @@
 	color: var(--dark-primary-color);
 }
 .primary-add-cart {
-	color: var(--complimentary-text-color);
+	color: white;
 	background-color: var(--primary-color);
 }
 .primary-add-cart:hover {
@@ -57,25 +58,25 @@
 }
 .secondary-solid {
 	background-color: #eaeaea;
-	color: var(--secondary-text-color);
+	color: #696b79;
 }
 .secondary-solid:hover {
 	background-color: #d8d8da;
 }
 .secondary-outline {
-	color: var(--secondary-text-color);
+	color: #696b79;
 	border: 1px solid #d8d8da;
 }
 .secondary-outline:hover {
 	background-color: #eaeaea;
 }
 .secondary-text {
-	color: var(--secondary-text-color);
+	color: #696b79;
 	text-decoration: underline;
-	text-decoration-color: var(--secondary-text-color);
+	text-decoration-color: #696b79;
 }
 .secondary-remove {
-	color: var(--secondary-text-color);
+	color: #696b79;
 	border: 1px solid #d8d8da;
 }
 .secondary-remove:hover {
@@ -88,7 +89,7 @@
 	opacity: 0.5;
 }
 .disabled-remove {
-	color: var(--secondary-text-color);
+	color: #696b79;
 	border: 1px solid #d8d8da;
 	opacity: 0.5;
 	cursor: none;

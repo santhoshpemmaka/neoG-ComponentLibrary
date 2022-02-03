@@ -1,23 +1,13 @@
-@import "./Alerts.css";
-@import "./Avatar.css";
-@import "./Badges.css";
-@import "./Button.css";
-@import "./HorizontialCard.css";
-@import "./Forms.css";
-@import "./Image.css";
-@import "./Navigation.css";
-@import "./Rating.css";
-@import "./Typography.css";
-@import "./Vertical.css";
+@import './Alerts.css';
+@import './Avatar.css';
+@import './Badges.css';
+@import './Button.css';
+@import './HorizontialCard.css';
+@import './Forms.css';
+@import './Image.css';
+@import './Navigation.css';
+@import './Rating.css';
+@import './Typography.css';
+@import './Vertical.css';
 
-.code-snipet {
-	max-height: 300px;
-	padding: 1rem 0;
-	background-color: #fafafa;
-	margin: 2rem 0;
-	overflow: auto;
-}
-.code-snipet iframe {
-	width: 100%;
-	border: none;
-}
+

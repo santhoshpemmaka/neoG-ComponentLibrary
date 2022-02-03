@@ -10,7 +10,7 @@
 }
 
 .avatar {
-	border: 2px solid var(--complimentary-text-color);
+	border: 2px solid white;
 }
 .flex-items {
 	margin: 1rem 1rem 1rem 0;
@@ -60,7 +60,7 @@
 .avatar-text {
 	display: flex;
 	color: #3e4152;
-	background-color: var(--primary-color);
+	background-color: #ff3f6c;
 	align-items: center;
 	justify-content: center;
 }

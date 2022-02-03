@@ -6,6 +6,7 @@
 	border-radius: 0.5rem;
 	border: 2px solid #e6e6e6;
 	background-color: #eaeaec;
+	flex-wrap: wrap;
 }
 .vertical-card {
 	max-width: 240px;
@@ -15,6 +16,7 @@
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 	position: relative;
 	margin: 0 1rem;
+	margin-bottom: 1rem;
 }
 .ver-card-image {
 	width: 240px;
