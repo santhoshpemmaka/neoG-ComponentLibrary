@@ -6,17 +6,17 @@
 	padding: 1rem;
 	border-radius: 0.3rem;
 	border: 2px solid #e3e3e3;
-	background-color: #ff3f6c;
+	background-color: var(--primary-color);
 	justify-content: space-between;
 }
 .nav-icon {
 	font-size: 2rem;
 	margin: 0.5rem 0.5rem;
 	padding: 0 1rem;
-	color: white;
+	color: var(--complimentary-text-color);
 }
 .nav-text {
 	font-family: bold;
 	font-size: 2rem;
-	color: white;
+	color: var(--complimentary-text-color);
 }
