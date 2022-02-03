@@ -36,6 +36,9 @@
 	align-items: center;
 	list-style-type: none;
 }
+.header-logo{
+	min-width: 14rem
+}
 .li-tag-header {
 	padding: 1rem;
 	color: #282c3f;
