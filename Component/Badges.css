@@ -14,7 +14,7 @@
 	position: relative;
 }
 .avatar {
-	border: 2px solid white;
+	border: 2px solid var(--complimentary-text-color);
 	width: fit-content;
 }
 
@@ -36,9 +36,9 @@
 .status-badge {
 	padding: 2px;
 	border-radius: 50%;
-	border: 2px solid white;
+	border: 2px solid var(--complimentary-text-color);
 	display: flex;
-	color: white;
+	color: var(--complimentary-text-color);
 	justify-content: center;
 	align-items: center;
 	position: absolute;
@@ -117,7 +117,7 @@
 	background-color: transparent;
 }
 .badge-count {
-	background-color: #ff3f6c;
+	background-color: var(--primary-color);
 	max-width: 1.5rem;
 	height: 2rem;
 	bottom: 1em;
@@ -137,12 +137,12 @@
 
 .badge {
 	margin: 0 10px;
-	color: white;
+	color: var(--complimentary-text-color);
 	padding: 3px 8px;
 	border-radius: 10px;
 }
 .bg-seconday {
-	background-color: #696b79;
+	background-color: var(--secondary-text-color);
 }
 
 .badge-container-h3 {
@@ -166,7 +166,7 @@
 	margin-top: 1.25rem;
 }
 .bg-seconday-1 {
-	background-color: #ff3f6c;
+	background-color: var(--primary-color);
 	border-radius: 10px;
 }
 .badge-container-p-tag {
