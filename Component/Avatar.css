@@ -60,7 +60,7 @@
 .avatar-text {
 	display: flex;
 	color: #3e4152;
-	background-color: #ff3f6c;
+	background-color: var(--primary-color);
 	align-items: center;
 	justify-content: center;
 }
