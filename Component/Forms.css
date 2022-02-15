@@ -34,6 +34,22 @@
 	flex-direction: row;
 	margin-bottom: 1rem;
 }
+.form-email-password {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 1rem;
+	position: relative;
+}
+
+.showpassword-icon{
+	position: absolute;
+    font-size: 1.9rem;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.25rem;
+    cursor: pointer;
+}
+
 .form-text-email {
 	font-size: 1.6rem;
 	color: #3e4152;
