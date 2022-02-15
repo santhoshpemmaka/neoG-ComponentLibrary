@@ -57,8 +57,8 @@
 	margin-right: 0.5rem;
 }
 .secondary-solid {
-	background-color: #eaeaea;
-	color: #696b79;
+	background-color: var(--primary-color);
+	color: var(--complimentary-text-color);
 }
 .secondary-solid:hover {
 	background-color: #d8d8da;
