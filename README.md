@@ -8,7 +8,7 @@ Component library is really build faster UI with minor changes.
 
 - Include CSS link added mentioned in your head tag to html file. It's ready to use your code base.
 
-- Component Library hosted link [QUICK UI](https://neog-component-library.netlify.app/documentation.css) .
+- Component Library hosted link [QUICK UI](https://neog-component-library.netlify.app/Component/v1-docs.css) .
 
 - [Documentation](https://neog-component-library.netlify.app/documentation.html) will help you to understand look and feel of the components.
 
