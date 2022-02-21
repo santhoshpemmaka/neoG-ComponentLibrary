@@ -13,3 +13,8 @@ Component library is really build faster UI with minor changes.
 - [Documentation](https://neog-component-library.netlify.app/documentation.html) will help you to understand look and feel of the components.
 
 - You can also create different combinations of componnets by adding extra class to the particulat tag in the HTML file.
+
+#### Tech Stack -
+
+- HTML
+- CSS
