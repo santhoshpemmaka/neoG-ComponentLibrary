@@ -1,0 +1,40 @@
+.modal-component{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    height: 25rem;
+    background-color: lightgoldenrodyellow;
+    font-size: 1.6rem;
+    color: #3e4152;
+    border-radius: 0.625rem;
+}
+.modal-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+    font-weight: bold;
+    font-size: 2rem;
+    border-bottom: 2px solid #3e4152;
+}
+.modal-desc{
+    padding: 1.5rem 0;
+    line-height: 2em;
+    letter-spacing: 0.15rem;
+    border-bottom: 2px solid #3e4152;
+}
+
+.modal-options{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: end;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.modal-options label{
+    margin-left: 2rem;
+}
