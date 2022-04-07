@@ -1,0 +1,58 @@
+.component-element{
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 0.625rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+    padding: 2rem 1rem;
+    justify-content: space-around;
+}
+.list-style-disc{
+    list-style: disc;
+    font-size: 1.6rem;
+    padding-left: 2rem;
+    margin-bottom: 1.5rem;
+    line-height: 3rem;
+    color: #3E4152;
+}
+.list-style-square{
+    list-style: square;
+    font-size: 1.6rem;
+    padding-left: 2rem;
+    margin-bottom: 1.5rem;
+    line-height: 3rem;
+    color: #3E4152;
+}
+.list-style-circle{
+    list-style: circle;
+    font-size: 1.6rem;
+    padding-left: 2rem;
+    margin-bottom: 1.5rem;
+    line-height: 3rem;
+    color: #3E4152;
+}
+.list-style-number{
+    list-style: number;
+    font-size: 1.6rem;
+    padding-left: 2rem;
+    margin-bottom: 1.5rem;
+    line-height: 3rem;
+    color: #3E4152;
+}
+.list-style-lowerLetter{
+    list-style: lower-alpha;
+    font-size: 1.6rem;
+    padding-left: 2rem;
+    margin-bottom: 1.5rem;
+    line-height: 3rem;
+    color: #3E4152;
+}
+.list-style-upperLetter{
+    list-style: upper-alpha;
+    font-size: 1.6rem;
+    padding-left: 2rem;
+    margin-bottom: 1.5rem;
+    line-height: 3rem;
+    color: #3E4152;
+}
