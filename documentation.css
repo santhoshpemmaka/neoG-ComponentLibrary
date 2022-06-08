@@ -85,6 +85,11 @@ footer{
     color: #3e4152;
     margin-bottom: 2rem;
 }
+.component-introduction p{
+    font-size: 1.6rem;
+    color: #3e4152;
+    
+}
 .component-intro{
     font-size: 2rem;
     padding: 2rem 0;

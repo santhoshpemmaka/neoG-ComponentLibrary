@@ -89,6 +89,9 @@
 							<a href="#buttons">Buttons</a>
 						</li>
 						<li class="nav-link-item">
+							<a href="#grid">Grid</a>
+						</li>
+						<li class="nav-link-item">
 							<a href="#forms">Forms</a>
 						</li>
 						<li class="nav-link-item">
@@ -98,10 +101,19 @@
 							<a href="#images">Images</a>
 						</li>
 						<li class="nav-link-item">
+							<a href="#lists">Lists</a>
+						</li>
+						<li class="nav-link-item">
+							<a href="#modal">Modal</a>
+						</li>
+						<li class="nav-link-item">
 							<a href="#navigation">Navigation</a>
 						</li>
 						<li class="nav-link-item">
 							<a href="#ratings">Ratings</a>
+						</li>
+						<li class="nav-link-item">
+							<a href="#toast">Toast</a>
 						</li>
 						<li class="nav-link-item">
 							<a href="#typo-graphy">Typography</a>
@@ -423,6 +435,114 @@
 							</div>
 						</div>
 					</div>
+					<div id="grid">
+						<div class="component-introduction">
+							<h2>Grid</h2>
+							<p>Use grid when you want to divide screen width into column.</p>
+							<div class="componet-item">
+								<h2 class="grid-heading">Two column grid</h2>
+								<div class="grid-component-two-layout">
+									<div class="grid column-2-right-expand">
+										<div class="column-block">
+											<label>Column1</label>
+											<label>Collapsed column</label>
+										</div>
+										<div class="column-block">
+											<label>Column2</label>
+											<label>Stretched column</label>
+										</div>
+									</div>
+									<div class="grid column-2-left-expand">
+										<div class="column-block">
+											<label>Column1</label>
+											<label> Stretched column</label>
+										</div>
+										<div class="column-block">
+											<label>Column2</label>
+											<label>Collapsed column</label>
+										</div>
+									</div>
+									<div class="grid column-2-evenly-expand">
+										<div class="column-block">
+											<label>Column1</label>
+											<label>Even column</label>
+										</div>
+										<div class="column-block">
+											<label>Column2</label>
+											<label>Even column</label>
+										</div>
+									</div>
+								</div>
+								<div class="code-snipet">
+									<code>
+										<iframe
+											src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=889.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-component-two-layout%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522grid%2520column-2-right-expand%2522%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522column-block%2522%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522column-block%2522%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253Cdiv%2520class%253D%2522grid%2520column-2-left-expand%2522%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522column-block%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522column-block%2522%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253Cdiv%2520class%253D%2522grid%2520column-2-evenly-expand%2522%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522column-block%2522%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522column-block%2522%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253C%252Fdiv%253E%2509%250A%253C%252Fdiv%253E"
+											style="border: 0; transform: scale(1); overflow: hidden"
+											sandbox="allow-scripts allow-same-origin"
+										>
+										</iframe>
+									</code>
+								</div>
+							</div>
+							<div class="componet-item">
+								<h2 class="grid-heading">Three column grid</h2>
+								<div class="grid-component-three-layout">
+									<div class="grid column-3-last-col-expand">
+										<div class="column-block">
+											<label>Column1</label>
+											<label>Even column</label>
+										</div>
+										<div class="column-block">
+											<label>Column2</label>
+											<label>Even column</label>
+										</div>
+										<div class="column-block">
+											<label>Column3</label>
+											<label>Stretched column</label>
+										</div>
+									</div>
+									<div class="grid column-3-first-col-expand">
+										<div class="column-block">
+											<label>Column1</label>
+											<label> Stretched column</label>
+										</div>
+										<div class="column-block">
+											<label>Column2</label>
+											<label>Even column</label>
+										</div>
+										<div class="column-block">
+											<label>Column3</label>
+											<label>Even column</label>
+										</div>
+									</div>
+									<div class="grid column-3-evenly-expand">
+										<div class="column-block">
+											<label>Column1</label>
+											<label>Even column</label>
+										</div>
+										<div class="column-block">
+											<label>Column2</label>
+											<label>Even column</label>
+										</div>
+										<div class="column-block">
+											<label>Column3</label>
+											<label>Even column</label>
+										</div>
+									</div>
+								</div>
+								<div class="code-snipet">
+									<code>
+										<iframe
+											src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=889.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid%2520column-3-last-col-expand%2522%253E%250A%2509%253Cdiv%2520class%253D%2522column-block%2522%253E%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522column-block%2522%253E%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522column-block%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522grid%2520column-3-first-col-expand%2522%253E%250A%2509%253Cdiv%2520class%253D%2522column-block%2522%253E%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522column-block%2522%253E%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522column-block%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522grid%2520column-3-evenly-expand%2522%253E%250A%2509%253Cdiv%2520class%253D%2522column-block%2522%253E%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522column-block%2522%253E%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522column-block%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+											style="border: 0; transform: scale(1); overflow: hidden"
+											sandbox="allow-scripts allow-same-origin"
+										>
+										</iframe>
+									</code>
+								</div>
+							</div>
+						</div>
+					</div>
 					<div id="forms">
 						<div class="component-introduction">
 							<h2>Forms</h2>
@@ -597,15 +717,15 @@
 								<div class="image-container">
 									<img
 										class="background-responsive-image"
-										src="../Assests/Images/Images-background.jpeg"
+										src="../Assests/Images/Images-background.jpg"
 										loading="lazy"
 										alt="background-image"
 									/>
 								</div>
-								<div class="image-container">
+								<div class="image-container image-circle">
 									<img
 										class="background-responsive-image circle-image"
-										src="../Assests/Images/Images-background.jpeg"
+										src="../Assests/Images/Images-background.jpg"
 										loading="lazy"
 										alt="background-image"
 									/>
@@ -614,6 +734,92 @@
 									<code>
 										<iframe
 											src="https://carbon.now.sh/embed?bg=rgba%28248%2C248%2C248%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=100px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522image-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522background-responsive-image%2522%2520src%253D%2522..%252FAssests%252FImages%252FImages-background.png%2522%2520alt%253D%2522background%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522image-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522background-responsive-image%2520circle-image%2522%2520src%253D%2522..%252FAssests%252FImages%252FImages-background.png%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+											style="border: 0; transform: scale(1); overflow: hidden"
+											sandbox="allow-scripts allow-same-origin"
+										>
+										</iframe>
+									</code>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="lists">
+						<div class="component-introduction">
+							<h2>Lists</h2>
+							<p>
+								Lists can be used at so many places, navigation bar and article
+								pages etc...
+							</p>
+							<div class="componet-item">
+								<div class="component-element">
+									<ul class="list-style-disc">
+										<li>list item1</li>
+										<li>list item2</li>
+										<li>list item3</li>
+									</ul>
+									<ul class="list-style-square">
+										<li>list item1</li>
+										<li>list item2</li>
+										<li>list item3</li>
+									</ul>
+									<ul class="list-style-circle">
+										<li>list item1</li>
+										<li>list item2</li>
+										<li>list item3</li>
+									</ul>
+									<ul class="list-style-number">
+										<li>list item1</li>
+										<li>list item2</li>
+										<li>list item3</li>
+									</ul>
+									<ul class="list-style-lowerLetter">
+										<li>list item1</li>
+										<li>list item2</li>
+										<li>list item3</li>
+									</ul>
+									<ul class="list-style-upperLetter">
+										<li>list item1</li>
+										<li>list item2</li>
+										<li>list item3</li>
+									</ul>
+								</div>
+
+								<div class="code-snipet">
+									<code>
+										<iframe
+											src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=889.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-style-disc%2522%253E%250A%2509%257Blist%2520items...%257D%250A%253C%252Ful%253E%250A%253Cul%2520class%253D%2522list-style-square%2522%253E%250A%2509%257Blist%2520items...%257D%250A%253C%252Ful%253E%250A%253Cul%2520class%253D%2522list-style-circle%2522%253E%250A%2509%257Blist%2520items...%257D%250A%253C%252Ful%253E%250A%253Cul%2520class%253D%2522list-style-number%2522%253E%250A%2509%257Blist%2520items...%257D%250A%253C%252Ful%253E%250A%253Cul%2520class%253D%2522list-style-lowerLetter%2522%253E%250A%2509%257Blist%2520items...%257D%250A%253C%252Ful%253E%250A%253Cul%2520class%253D%2522list-style-upperLetter%2522%253E%250A%2509%257Blist%2520items...%257D%250A%253C%252Ful%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509"
+											style="border: 0; transform: scale(1); overflow: hidden"
+											sandbox="allow-scripts allow-same-origin"
+										>
+										</iframe>
+									</code>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="modal">
+						<div class="component-introduction">
+							<h2>Modal</h2>
+							<div class="componet-item">
+								<div class="modal-component">
+									<div class="modal-heading">
+										<label>Modal Header</label>
+										<i class="fas fa-times"></i>
+									</div>
+									<span class="modal-desc">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Soluta, accusamus. Lorem ipsum dolor sit amet consectetur
+										adipisicing elit. Nesciunt, a
+									</span>
+									<div class="modal-options">
+										<label>Option 1</label>
+										<label>Option 2</label>
+									</div>
+								</div>
+								<div class="code-snipet">
+									<code>
+										<iframe
+											src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=889.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal-component%2522%253E%250A%2509%253Cdiv%2520class%253D%2522modal-heading%2522%253E%250A%2509%2509%253Clabel%253EModal%2520Header%253C%252Flabel%253E%250A%2509%2509%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cspan%2520class%253D%2522modal-desc%2522%253E%250A%2509%2509Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%250A%2509%2509Soluta%252C%2520accusamus.%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%250A%2509%2509adipisicing%2520elit.%2520Nesciunt%252C%2520a%250A%2509%253C%252Fspan%253E%250A%2509%253Cdiv%2520class%253D%2522modal-options%2522%253E%250A%2509%2509%253Clabel%253EOption%25201%253C%252Flabel%253E%250A%2509%2509%253Clabel%253EOption%25202%253C%252Flabel%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
 											style="border: 0; transform: scale(1); overflow: hidden"
 											sandbox="allow-scripts allow-same-origin"
 										>
@@ -682,6 +888,45 @@
 									<code>
 										<iframe
 											src="https://carbon.now.sh/embed?bg=rgba%28248%2C248%2C248%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=100px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522rating-text%2520flex-items%2522%253ECustomer%2520reviews%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-icon%2520rating-color%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-icon%2520rating-color%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-icon%2520rating-color%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522rating-text%2520display-rating%2522%253E%25203%2520out%2520of%25205%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522rating-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522rating-text%2520flex-items%2522%253ERate%2520our%2520service%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-icon%2520rating-color%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-icon%2520rating-color%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-icon%2520rating-color%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522rating-btn%2520%2522%253ESubmit%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+											style="border: 0; transform: scale(1); overflow: hidden"
+											sandbox="allow-scripts allow-same-origin"
+										>
+										</iframe>
+									</code>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="toast">
+						<div class="component-introduction">
+							<h2>Toast</h2>
+							<div class="componet-item">
+								<div class="toast-component">
+									<div class="toast toast-success">
+										<label>Saved!</label>
+										<i class="fas fa-times"></i>
+									</div>
+
+									<div class="toast toast-warning">
+										<label>Please fill the from!</label>
+										<i class="fas fa-times"></i>
+									</div>
+
+									<div class="toast toast-info">
+										<label>Saving to server...</label>
+										<i class="fas fa-times"></i>
+									</div>
+
+									<div class="toast toast-error">
+										<label>Try again later!</label>
+										<i class="fas fa-times"></i>
+									</div>
+								</div>
+
+								<div class="code-snipet">
+									<code>
+										<iframe
+											src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast-component%2522%253E%250A%2509%253Cdiv%2520class%253D%2522toast%2520toast-success%2522%253E%250A%2509%2509%253Clabel%253ESaved%21%253C%252Flabel%253E%250A%2509%2509%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2509%253C%252Fdiv%253E%2509%2509%2509%2509%2509%2509%2509%250A%2509%253Cdiv%2520class%253D%2522toast%2520toast-warning%2522%253E%250A%2509%2509%253Clabel%253EPlease%2520fill%2520the%2520from%21%253C%252Flabel%253E%250A%2509%2509%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522toast%2520toast-info%2522%253E%250A%2509%2509%253Clabel%253ESaving%2520to%2520server...%253C%252Flabel%253E%250A%2509%2509%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522toast%2520toast-error%2522%253E%250A%2509%2509%253Clabel%253ETry%2520again%2520later%21%253C%252Flabel%253E%250A%2509%2509%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
 											style="border: 0; transform: scale(1); overflow: hidden"
 											sandbox="allow-scripts allow-same-origin"
 										>
