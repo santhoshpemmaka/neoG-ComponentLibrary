@@ -48,7 +48,9 @@ footer{
     width: 25rem;
     overflow-y: auto;
     position: sticky;
-    height: calc(100vh - 2rem);
+    height: calc(100vh - 6rem);
+    top: 5rem;
+    border-right: 5px solid #e6e6e6;
 }
 .nav-heading{
     padding: 0 3rem;
